@@ -34,7 +34,7 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-
+# yarn berry
 .yarn/*
 !.yarn/patches
 !.yarn/releases
@@ -42,3 +42,7 @@ lerna-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+
+# environments
+.env
